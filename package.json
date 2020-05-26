@@ -8,12 +8,12 @@
   ],
   "sideEffects": false,
   "scripts": {
-    "release": "standard-version && npm publish",
+    "release": "standard-version && npm publish --tag rc",
     "postrelease": "git push && git push origin --tags"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shallinta/ajaxFetch.git"
+    "url": "git+https://github.com/shallinta/ajax-fetch.git"
   },
   "keywords": [
     "fetch",
@@ -28,9 +28,9 @@
   "author": "John Chan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shallinta/ajaxFetch/issues"
+    "url": "https://github.com/shallinta/ajax-fetch/issues"
   },
-  "homepage": "https://github.com/shallinta/ajaxFetch#readme",
+  "homepage": "https://github.com/shallinta/ajax-fetch#readme",
   "devDependencies": {
     "standard-version": "^8.0.0"
   }
