@@ -1,5 +1,5 @@
 {
-  "name": "ajax-fetch",
+  "name": "ajax-fetch-esm",
   "version": "1.1.0",
   "description": "An esm ajax module based on Fetch API, with interceptors. For those environments which do not support CommonJS, such as vite.",
   "main": "index.ts",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shallinta/ajax-fetch.git"
+    "url": "git+https://github.com/shallinta/ajax-fetch-esm.git"
   },
   "keywords": [
     "fetch",
@@ -28,9 +28,9 @@
   "author": "John Chan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shallinta/ajax-fetch/issues"
+    "url": "https://github.com/shallinta/ajax-fetch-esm/issues"
   },
-  "homepage": "https://github.com/shallinta/ajax-fetch#readme",
+  "homepage": "https://github.com/shallinta/ajax-fetch-esm#readme",
   "devDependencies": {
     "standard-version": "^8.0.0"
   }
