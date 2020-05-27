@@ -8,8 +8,10 @@
   ],
   "sideEffects": false,
   "scripts": {
-    "release": "standard-version && npm publish --tag rc",
-    "postrelease": "git push && git push origin --tags"
+    "release": "standard-version --prerelease rc && npm publish --tag rc",
+    "release:stable": "standard-version && npm publish",
+    "postrelease": "git push && git push origin --tags",
+    "postrelease:stable": "git push && git push origin --tags"
   },
   "repository": {
     "type": "git",
