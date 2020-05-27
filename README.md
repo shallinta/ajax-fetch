@@ -40,9 +40,9 @@ ajaxFetch.interceptors.request.use((config) => ({ ...config, baseURL: '/api' }))
 
 ```js
 // use specific instance
-import ajaxFetch from 'ajax-fetch-esm';
+import { AjaxFetch } from 'ajax-fetch-esm';
 
-const ajaxFetchInstance = ajaxFetch.of();
+const ajaxFetchInstance = AjaxFetch.of();
 
 ajaxFetchInstance.interceptors.request.use((config) => ({ ...config, baseURL: '/api' }));
 

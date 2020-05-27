@@ -10,7 +10,7 @@ interface AjaxFetchError {
 
 type AjaxFetchSymbol = string | number;
 
-class AjaxFetch {
+export class AjaxFetch {
   private static instanceSerial: number = 0;
   public static of(symbol?: AjaxFetchSymbol): AjaxFetch {
     return new AjaxFetch(symbol);
